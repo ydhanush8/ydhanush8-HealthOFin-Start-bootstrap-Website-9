@@ -1,0 +1,316 @@
+.navbar{
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand{
+    color: white;
+    margin-left: 180px;
+}
+
+.nav-link{
+    color: rgb(186, 186, 186);
+    margin-inline: 10px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: 830px;
+}
+
+.home{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    padding: 150px;
+    h1{
+        width: 1000px;
+        padding-left: 350px;
+        padding-top: 20px;
+        font-size: 60px;
+        font-weight: 700;
+    };
+    h6{
+        width: 1000px;
+        padding-left: 350px;
+        padding-top: 10px;
+        font-size: larger;
+        color: rgb(147, 147, 147);
+    }
+}
+
+.button{
+    margin-top: 30px;
+    padding: 13px;
+    padding-inline: 40px;
+    background-color: rgb(63, 117, 253);
+    border-radius: 15px;
+    border: none;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        font-weight: 600;
+    }
+}
+
+.b1{
+    margin-right: 20px;
+}
+
+.b1:hover{
+    background-color: rgb(36, 98, 254);
+}
+
+.b2{
+    background: none;
+    border: 1px solid white;
+}
+
+.b2:hover{
+    background-color: white;
+    a{
+        color: black;
+    }
+}
+
+.about{
+    display: flex;
+    margin-inline: 180px;
+    margin-top: 100px;
+}
+
+.about-card{
+    margin: 20px;
+}
+
+.about-btn{
+    padding: 19px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgb(63, 117, 253);
+    i{
+        font-size: xx-large;
+        color: white;
+    }
+}
+
+.about-card-heading{
+    margin-top: 17px;
+}
+
+.about-card-btn{
+    background: none;
+    border: none;
+    color: rgb(63, 117, 253);
+}
+
+.about-card-btn:hover{
+    color: rgb(0, 61, 217)
+}
+
+.pricing{
+    margin-top: 100px;
+    background-color: rgb(242, 242, 242);
+    height: 100vh;
+    text-align: center;
+    padding: 100px;
+
+    h3{
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    h6{
+        color: rgb(122, 122, 122);
+    }
+}
+
+.pricing-cards{
+    display: flex;
+    margin: 60px;
+    margin-left: 150px;
+}
+
+.pricing-card{
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(188, 188, 188);
+    padding-inline: 60px;
+    margin-inline: 30px;
+}
+
+.pricing-card-free{
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+    font-weight: 700;
+}
+
+.pricing-plan-price{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.tick{
+    i{
+        color: rgb(63, 117, 253);
+    }
+}
+
+.cross{
+    color: rgb(188, 188, 188);
+}
+
+.pricing-btn{
+    background:none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 240px;
+    padding-inline: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(63, 117, 253);
+    color: rgb(63, 117, 253);
+    font-weight: 600;
+}
+
+.pricing-btn:hover{
+    background-color: rgb(63, 117, 253);
+    color: white;
+}
+
+.fa-star{
+    color: goldenrod;
+}
+
+.pricing-btn-star{
+    background:none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 240px;
+    padding-inline: 50px;
+    border-radius: 10px;
+    background-color: rgb(63, 117, 253);
+    color: white;
+    font-weight: 600;
+}
+
+.pricing-btn-star:hover{
+    background: none;
+    border: 1px solid rgb(63, 117, 253);
+    color: rgb(63, 117, 253);
+}
+
+.testimonial{
+    margin-top: 18px;
+    text-align: center;
+    padding: 100px;
+    h3{
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    h6{
+        color: rgb(122, 122, 122);
+    }
+}
+
+.testimonial-card{
+    display: flex;
+    margin: 50px;
+    margin-left: 440px;
+    width: 600px;
+    text-align: left;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.testimonial-btn{
+    padding: 19px;
+    border: none;
+    border-radius: 14px;
+    background-color: white;
+    i{
+        margin-bottom: 60px;
+        font-size: xx-large;
+        color: rgb(63, 117, 253);
+    };
+    
+}
+
+.testimonial-info{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.testimonial-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(117, 117, 117);
+}
+
+.contact{
+    margin-top: 100px;
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 100px;
+    h3{
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    h6{
+        color: rgb(122, 122, 122);
+    }
+}
+
+.contact-logo-btn{
+    border: none;
+    border-radius: 14px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(63, 117, 253);
+    i{
+        font-size: xx-large;
+        color: white;
+    }
+}
+
+.contact-input{
+    width: 700px;
+    padding: 10px;
+    padding-right: 200px;
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.textarea{
+    height: 150px;
+}
+
+.contact-btn{
+    padding: 10px;
+    padding-inline: 320px;
+    background-color: rgb(63, 117, 253);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
